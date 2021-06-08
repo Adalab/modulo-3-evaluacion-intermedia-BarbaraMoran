@@ -5,7 +5,7 @@ import pokemonData from "../data/pokemonData.json";
 //import { useState } from "react";
 
 const App = () => {
-  //const [pokemonData, setPokemonData] = useState(pokemonData);
+  //const [pokemonData, setPokemonData] = useState([pokemonData]);
   return (
     <div className="App">
       <h1 className="title"> Mi lista de Pokemon</h1>

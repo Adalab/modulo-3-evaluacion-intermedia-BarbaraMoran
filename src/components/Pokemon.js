@@ -9,13 +9,13 @@ const Pokemon = (props) => {
   return (
     <>
       <img
-        className="img"
+        className="item__img"
         src={props.eachPokemon.url}
         alt={props.eachPokemon.name}
         title={props.eachPokemon.name}
       />
-      <h2 className="info__name">{props.eachPokemon.name}</h2>
-      <ul className="info__types">{renderTypes()}</ul>
+      <h2 className="item__name">{props.eachPokemon.name}</h2>
+      <ul className="item__types">{renderTypes()}</ul>
     </>
   );
 };
