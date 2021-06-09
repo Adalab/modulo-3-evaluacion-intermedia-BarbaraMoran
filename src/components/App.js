@@ -4,7 +4,7 @@ import PokeList from "./PokeList";
 import pokemonData from "../data/pokemonData.json";
 
 const App = (props) => {
-  const [pokemons, setPokemonData] = useState(pokemonData);
+  const [pokemons] = useState(pokemonData);
   return (
     <div className="App">
       <h1 className="title"> Mi lista de Pokemon</h1>
