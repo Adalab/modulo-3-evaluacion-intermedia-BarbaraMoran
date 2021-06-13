@@ -11,7 +11,6 @@ const PokeDetail = (props) => {
         title={props.pokeData.name}
       />
       <h2 className="item__name">{props.pokeData.name}</h2>
-      {/*<ul className="item__types">{renderTypes()}</ul>*/};
     </>
   );
 };

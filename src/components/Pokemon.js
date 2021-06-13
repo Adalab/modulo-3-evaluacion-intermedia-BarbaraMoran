@@ -1,4 +1,5 @@
 import "../stylesheets/Pokemon.scss";
+import PropTypes from "prop-types";
 
 const Pokemon = (props) => {
   const renderTypes = () => {
@@ -18,6 +19,13 @@ const Pokemon = (props) => {
       <ul className="item__types">{renderTypes()}</ul>
     </>
   );
+};
+
+Pokemon.propTypes = {
+  eachPokemon: PropTypes.shape({
+    url: PropTypes.string,
+    types: PropTypes.array,
+  }),
 };
 
 export default Pokemon;

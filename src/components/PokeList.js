@@ -1,4 +1,5 @@
 import "../stylesheets/PokeList.scss";
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import Pokemon from "./Pokemon";
 
@@ -17,3 +18,7 @@ const PokeList = (props) => {
 };
 
 export default PokeList;
+
+Pokemon.propTypes = {
+  pokemonData: PropTypes.array,
+};
